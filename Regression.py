@@ -11,5 +11,4 @@ def linearReg(X, Y):
     
     plt.scatter(X, Y)
     plt.plot(X, reg)
-    
     return plt.show(), A, B, r, p, se
